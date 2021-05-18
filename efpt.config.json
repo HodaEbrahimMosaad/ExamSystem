@@ -1,0 +1,401 @@
+﻿{
+   "ContextClassName": "Examv2Context",
+   "ContextNamespace": "Entities",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": "Entities",
+   "OutputContextPath": "Entities",
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "ExamSystem",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Choice]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Course]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Department]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DepartmentCourse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Exam]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Instructor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InstructorCourse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Question]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Repo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Student]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudentAnswers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StudentCourse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Topic]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Users]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChoiceDelete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ChoiceInsert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ChoiceSelect]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ChoiceUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[deleteExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteInstructor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteInstructor_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteStudCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteStudent_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[deleteStudentAnswer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[DeleteUser_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExamAnswers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExamCorrection]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecDeleteCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecDeleteTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecGenerateExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecInsertCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecInsertNQuestions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecInsertTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecSetNQuestions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecUpdateCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[ExecUpdateTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[GenerateExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[getLastQuestionID]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[insertExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertInsructor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertInsructor_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[insertStudCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertStudent_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[insertStudentAnswer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[InsertUser_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Log_In]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[Log_In_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[QuestionDelete]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[QuestionInsert]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[QuestionSelect]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[QuestionUpdate]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[reportCourseTopics]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[reportExamQuestions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[reportExamStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[reportInsCourses]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[reportStudentGrades]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[reportStudentInfo]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[selectExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectInstructor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectInstructor_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[selectStudCouse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectStudent_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[selectStudentAnswer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[selectStudentCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SelectTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[SetNQuestions]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_alterdiagram]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_creatediagram]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_dropdiagram]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_helpdiagramdefinition]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_helpdiagrams]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_renamediagram]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[sp_upgraddiagrams]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[updateExam]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateInstructor]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateInstructor_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[updateStudCourse]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateStudent]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateStudent_Action]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[updateStudentAnswer]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateTopic]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateUser]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[UpdateUser_Action]",
+         "ObjectType": 1
+      }
+   ],
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false
+}
